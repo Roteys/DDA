@@ -56,7 +56,7 @@ for i in range(len(df_palavras)):
 
 # Separação dos conjuntos de palavras
 conjuntos_palavras = ["muito fácil", "fácil", "médio", "difícil", "muito difícil"]
-df_resultados["dificuldade"] = pd.qcut(df_resultados["peso palavra"], q=5, labels=conjuntos_palavras, duplicates="drop")
+df_resultados["dificuldade"] = pd.qcut(df_resultados["peso palavra"].rank(method="first"), q=5, labels=conjuntos_palavras, duplicates="drop")
 df_resultados.to_csv("palavra_completo.csv", mode="w", sep=";", index=False, encoding="utf-8")
 
 print(df_resultados)
