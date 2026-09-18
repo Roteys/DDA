@@ -1,0 +1,214 @@
+ID;palavra;categoria;número de sílabas;classificação por número de sílabas;acento;tipo de acento;peso palavra;dificuldade
+1;luva;regulares;2.0;Dissílaba;0.0;;3.0;muito fácil
+2;pato;regulares;2.0;Dissílaba;0.0;;3.0;muito fácil
+3;táxi;irregulares;2.0;Dissílaba;1.0;agudo (´);5.0;fácil
+4;exame;irregulares;2.0;Dissílaba;0.0;;4.0;muito fácil
+5;trincha;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;fácil
+6;unhas;dígrafo consonantal;1.0;Monossílaba;0.0;;4.0;muito fácil
+7;serpente;sílabas CVC;3.0;Trissílaba;0.0;;7.0;muito difícil
+8;disco;sílabas CVC;2.0;Dissílaba;0.0;;6.0;médio
+9;blusa;ssílabas CCV;2.0;Dissílaba;0.0;;;
+10;glutões;ssílabas CCV;2.0;Dissílaba;1.0;til (~);;
+11;lua;regulares;1.0;Monossílaba;0.0;;2.0;muito fácil
+12;pneumoultramicroscopicossilicovulcanoconiótico;dígrafo consonantal;19.0;Polissílaba;1.0;agudo (´);23.0;muito difícil
+13;órgão;regulares;2.0;Dissílaba;2.0;agudo (´), til (~);5.0;fácil
+14;abacate;regulares;3.0;Trissílaba;0.0;;4.0;muito fácil
+15;amiga;regulares;2.0;Dissílaba;0.0;;3.0;muito fácil
+16;amigo;regulares;2.0;Dissílaba;0.0;;3.0;muito fácil
+17;banana;regulares;3.0;Trissílaba;0.0;;4.0;muito fácil
+18;batata;regulares;3.0;Trissílaba;0.0;;4.0;muito fácil
+19;bigode;regulares;3.0;Trissílaba;0.0;;4.0;muito fácil
+20;bocado;regulares;3.0;Trissílaba;0.0;;4.0;muito fácil
+21;boneca;regulares;3.0;Trissílaba;0.0;;4.0;muito fácil
+22;boneco;regulares;3.0;Trissílaba;0.0;;4.0;muito fácil
+23;bule;regulares;2.0;Dissílaba;0.0;;3.0;muito fácil
+24;cabana;regulares;3.0;Trissílaba;0.0;;4.0;muito fácil
+25;camisa;regulares;3.0;Trissílaba;0.0;;4.0;muito fácil
+26;caneta;regulares;3.0;Trissílaba;0.0;;4.0;muito fácil
+27;cavalo;regulares;3.0;Trissílaba;0.0;;4.0;muito fácil
+28;copo;regulares;2.0;Dissílaba;0.0;;3.0;muito fácil
+29;dado;regulares;2.0;Dissílaba;0.0;;3.0;muito fácil
+30;dedo;regulares;2.0;Dissílaba;0.0;;3.0;muito fácil
+31;fada;regulares;2.0;Dissílaba;0.0;;3.0;muito fácil
+32;fita;regulares;2.0;Dissílaba;0.0;;3.0;muito fácil
+33;gato;regulares;2.0;Dissílaba;0.0;;3.0;muito fácil
+34;janela;regulares;3.0;Trissílaba;0.0;;4.0;muito fácil
+35;lata;regulares;2.0;Dissílaba;0.0;;3.0;muito fácil
+36;macaco;regulares;3.0;Trissílaba;0.0;;4.0;muito fácil
+37;mala;regulares;2.0;Dissílaba;0.0;;3.0;muito fácil
+38;menina;regulares;3.0;Trissílaba;0.0;;4.0;muito fácil
+39;menino;regulares;3.0;Trissílaba;0.0;;4.0;muito fácil
+40;mesa;regulares;2.0;Dissílaba;0.0;;3.0;muito fácil
+41;panela;regulares;3.0;Trissílaba;0.0;;4.0;muito fácil
+42;pato;regulares;2.0;Dissílaba;0.0;;3.0;muito fácil
+43;pelota;regulares;3.0;Trissílaba;0.0;;4.0;muito fácil
+44;peteca;regulares;3.0;Trissílaba;0.0;;4.0;muito fácil
+45;pipa;regulares;2.0;Dissílaba;0.0;;3.0;muito fácil
+46;pipoca;regulares;3.0;Trissílaba;0.0;;4.0;muito fácil
+47;pote;regulares;2.0;Dissílaba;0.0;;3.0;muito fácil
+48;rato;regulares;2.0;Dissílaba;0.0;;3.0;muito fácil
+49;sapato;regulares;3.0;Trissílaba;0.0;;4.0;muito fácil
+50;sapo;regulares;2.0;Dissílaba;0.0;;3.0;muito fácil
+51;tapete;regulares;3.0;Trissílaba;0.0;;4.0;fácil
+52;tatu;regulares;2.0;Dissílaba;0.0;;3.0;muito fácil
+53;tomada;regulares;3.0;Trissílaba;0.0;;4.0;fácil
+54;exame;irregulares;2.0;Dissílaba;0.0;;4.0;fácil
+55;exato;irregulares;2.0;Dissílaba;0.0;;4.0;fácil
+56;exemplo;irregulares;2.0;Dissílaba;0.0;;4.0;fácil
+57;exílio;irregulares;2.0;Dissílaba;1.0;agudo (´);5.0;fácil
+58;exército;irregulares;3.0;Trissílaba;1.0;agudo (´);6.0;médio
+59;hemodiálise;irregulares;6.0;Polissílaba;1.0;agudo (´);9.0;muito difícil
+60;hemodinâmica;irregulares;6.0;Polissílaba;1.0;circunflexo (^);9.0;muito difícil
+61;hemoterapia;irregulares;5.0;Polissílaba;0.0;;7.0;muito difícil
+62;herói;irregulares;2.0;Dissílaba;1.0;agudo (´);5.0;fácil
+63;heroína;irregulares;4.0;Polissílaba;1.0;agudo (´);7.0;muito difícil
+64;heterogêneo;irregulares;5.0;Polissílaba;1.0;circunflexo (^);8.0;muito difícil
+65;heterônimo;irregulares;5.0;Polissílaba;1.0;circunflexo (^);8.0;muito difícil
+66;hiena;irregulares;3.0;Trissílaba;0.0;;5.0;fácil
+67;hino;irregulares;2.0;Dissílaba;0.0;;4.0;fácil
+68;hiperativo;irregulares;5.0;Polissílaba;0.0;;7.0;muito difícil
+69;hiperemia;irregulares;4.0;Polissílaba;0.0;;6.0;médio
+70;hipoteca;irregulares;4.0;Polissílaba;0.0;;6.0;médio
+71;hipótese;irregulares;4.0;Polissílaba;1.0;agudo (´);7.0;muito difícil
+72;hipotético;irregulares;5.0;Polissílaba;1.0;agudo (´);8.0;muito difícil
+73;hábito;irregulares;3.0;Trissílaba;1.0;agudo (´);6.0;médio
+74;higiene;irregulares;4.0;Polissílaba;0.0;;6.0;médio
+75;hoje;irregulares;2.0;Dissílaba;0.0;;4.0;fácil
+76;hora;irregulares;2.0;Dissílaba;0.0;;4.0;fácil
+77;humano;irregulares;3.0;Trissílaba;0.0;;5.0;fácil
+78;hípica;irregulares;3.0;Trissílaba;1.0;agudo (´);6.0;médio
+79;taxi;irregulares;2.0;Dissílaba;0.0;;4.0;fácil
+80;xenofobia;irregulares;4.0;Polissílaba;0.0;;6.0;médio
+81;xenofilia;irregulares;4.0;Polissílaba;0.0;;6.0;médio
+82;xenogamia;irregulares;4.0;Polissílaba;0.0;;6.0;médio
+83;xenófobo;irregulares;4.0;Polissílaba;1.0;agudo (´);7.0;muito difícil
+84;xenônio;irregulares;3.0;Trissílaba;1.0;circunflexo (^);6.0;difícil
+85;toxina;irregulares;3.0;Trissílaba;0.0;;5.0;fácil
+86;anexo;irregulares;2.0;Dissílaba;0.0;;4.0;fácil
+87;asfixia;irregulares;3.0;Trissílaba;0.0;;5.0;fácil
+88;sintaxe;irregulares;3.0;Trissílaba;0.0;;5.0;fácil
+89;léxico;irregulares;3.0;Trissílaba;1.0;agudo (´);6.0;difícil
+90;dureza;irregulares;3.0;Trissílaba;0.0;;5.0;fácil
+91;certeza;irregulares;3.0;Trissílaba;0.0;;5.0;fácil
+92;beleza;irregulares;3.0;Trissílaba;0.0;;5.0;fácil
+93;riqueza;irregulares;3.0;Trissílaba;0.0;;5.0;fácil
+94;agulha;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;fácil
+95;alho;dígrafo consonantal;1.0;Monossílaba;0.0;;4.0;fácil
+96;aranha;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;fácil
+97;banho;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;fácil
+98;barriga;dígrafo consonantal;3.0;Trissílaba;0.0;;6.0;difícil
+99;burro;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;fácil
+100;cachorro;dígrafo consonantal;3.0;Trissílaba;0.0;;6.0;difícil
+101;caminho;dígrafo consonantal;3.0;Trissílaba;0.0;;6.0;difícil
+102;chamada;dígrafo consonantal;3.0;Trissílaba;0.0;;6.0;difícil
+103;chave;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;fácil
+104;chão;dígrafo consonantal;1.0;Monossílaba;1.0;til (~);5.0;fácil
+105;chefe;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;fácil
+106;chocolate;dígrafo consonantal;4.0;Polissílaba;0.0;;7.0;muito difícil
+107;choro;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;fácil
+108;chuva;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;fácil
+109;chuveiro;dígrafo consonantal;3.0;Trissílaba;0.0;;6.0;difícil
+110;coelho;dígrafo consonantal;3.0;Trissílaba;0.0;;6.0;difícil
+111;corrida;dígrafo consonantal;3.0;Trissílaba;0.0;;6.0;difícil
+112;ferro;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;fácil
+113;filho;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;fácil
+114;folha;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;fácil
+115;galho;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;fácil
+116;galinha;dígrafo consonantal;3.0;Trissílaba;0.0;;6.0;difícil
+117;garrafa;dígrafo consonantal;3.0;Trissílaba;0.0;;6.0;difícil
+118;joelho;dígrafo consonantal;3.0;Trissílaba;0.0;;6.0;difícil
+119;lhama;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;fácil
+120;linha;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;fácil
+121;manhã;dígrafo consonantal;2.0;Dissílaba;1.0;til (~);6.0;difícil
+122;milho;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;fácil
+123;minha;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;médio
+124;ninho;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;médio
+125;olho;dígrafo consonantal;1.0;Monossílaba;0.0;;4.0;fácil
+126;orelha;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;médio
+127;palha;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;médio
+128;serra;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;médio
+129;sonho;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;médio
+130;telha;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;médio
+131;terra;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;médio
+132;torre;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;médio
+133;velho;dígrafo consonantal;2.0;Dissílaba;0.0;;5.0;médio
+134;amor;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+135;anel;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+136;animal;sílabas CVC;2.0;Dissílaba;0.0;;6.0;difícil
+137;azul;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+138;bem;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+139;cal;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+140;calor;sílabas CVC;2.0;Dissílaba;0.0;;6.0;difícil
+141;cantar;sílabas CVC;2.0;Dissílaba;0.0;;6.0;difícil
+142;comer;sílabas CVC;2.0;Dissílaba;0.0;;6.0;difícil
+143;cor;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+144;dor;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+145;falar;sílabas CVC;2.0;Dissílaba;0.0;;6.0;difícil
+146;favor;sílabas CVC;2.0;Dissílaba;0.0;;6.0;difícil
+147;faz;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+148;fim;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+149;funil;sílabas CVC;2.0;Dissílaba;0.0;;6.0;difícil
+150;jardim;sílabas CVC;2.0;Dissílaba;0.0;;6.0;difícil
+151;luz;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+152;mal;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+153;mar;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+154;mel;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+155;menor;sílabas CVC;2.0;Dissílaba;0.0;;6.0;difícil
+156;metal;sílabas CVC;2.0;Dissílaba;0.0;;6.0;difícil
+157;motor;sílabas CVC;2.0;Dissílaba;0.0;;6.0;difícil
+158;papel;sílabas CVC;2.0;Dissílaba;0.0;;6.0;difícil
+159;paz;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+160;poder;sílabas CVC;2.0;Dissílaba;0.0;;6.0;difícil
+161;portal;sílabas CVC;2.0;Dissílaba;0.0;;6.0;difícil
+162;saber;sílabas CVC;2.0;Dissílaba;0.0;;6.0;difícil
+163;sal;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+164;sim;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+165;sol;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+166;tal;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+167;tambor;sílabas CVC;2.0;Dissílaba;0.0;;6.0;difícil
+168;tem;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+169;valor;sílabas CVC;2.0;Dissílaba;0.0;;6.0;difícil
+170;vez;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+171;viver;sílabas CVC;2.0;Dissílaba;0.0;;6.0;difícil
+172;voz;sílabas CVC;1.0;Monossílaba;0.0;;5.0;médio
+173;pastel;sílabas CVC;2.0;Dissílaba;0.0;;6.0;difícil
+174;bloco;sílabas CCV;2.0;Dissílaba;0.0;;6.0;difícil
+175;blusa;sílabas CCV;2.0;Dissílaba;0.0;;6.0;difícil
+176;brasa;sílabas CCV;2.0;Dissílaba;0.0;;6.0;difícil
+177;bravo;sílabas CCV;2.0;Dissílaba;0.0;;6.0;difícil
+178;breve;sílabas CCV;2.0;Dissílaba;0.0;;6.0;difícil
+179;briga;sílabas CCV;2.0;Dissílaba;0.0;;6.0;difícil
+180;broto;sílabas CCV;2.0;Dissílaba;0.0;;6.0;difícil
+181;claro;sílabas CCV;2.0;Dissílaba;0.0;;6.0;difícil
+182;clima;sílabas CCV;2.0;Dissílaba;0.0;;6.0;difícil
+183;cravo;sílabas CCV;2.0;Dissílaba;0.0;;6.0;difícil
+184;creme;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+185;cria;sílabas CCV;1.0;Monossílaba;0.0;;5.0;médio
+186;cruzeiro;sílabas CCV;3.0;Trissílaba;0.0;;7.0;muito difícil
+187;dragão;sílabas CCV;2.0;Dissílaba;1.0;til (~);7.0;muito difícil
+188;drama;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+189;flauta;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+190;floco;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+191;fraco;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+192;frita;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+193;fruta;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+194;grama;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+195;grato;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+196;grito;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+197;plano;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+198;pluma;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+199;prato;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+200;preto;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+201;primavera;sílabas CCV;4.0;Polissílaba;0.0;;8.0;muito difícil
+202;preso;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+203;trevo;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+204;trigo;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+205;troco;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+206;trama;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+207;trofa;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+208;placa;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+209;prosa;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+210;droga;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+211;grade;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+212;clara;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil
+213;frota;sílabas CCV;2.0;Dissílaba;0.0;;6.0;muito difícil

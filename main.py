@@ -1,14 +1,33 @@
 import pandas as pd
+import unicodedata
 import pyphen
 
-# Função para contar o número de ACENTOS de cada palavra
-def identificar_acentos(palavra_loop):
-    acentos = ["á", "à", "â", "ã", "ä", "é", "è", "ê", "ë", "í", "ì", "î", "ï", "ó", "ò", "ô", "õ", "ö", "ú", "ù", "û", "ü", "ç", "Á", "À", "Â", "Ã", "Ä", "É", "È", "Ê", "Ë", "Í", "Ì", "Î", "Ï", "Ó", "Ò", "Ô", "Õ", "Ö", "Ú", "Ù", "Û", "Ü", "Ç"]
+# Função para identificar e contar o número de ACENTOS de cada palavra
+def extrair_tipo_acento(palavra_loop):
+    if not isinstance(palavra_loop, str):
+        return None, 0
+    palavra_nfd = unicodedata.normalize("NFD", palavra_loop)
+
+    diacriticos = {
+        "\u0301": "agudo (´)",
+        "\u0302": "circunflexo (^)",
+        "\u0303": "til (~)",
+        "\u0300": "crase (`)",
+        "\u0327": "cedilha (ç)",
+        "\u0308": "trema (¨)",
+    }
+
+    acentos_encontrados = []
     soma = 0
-    for caractere in palavra_loop:
-        if caractere in acentos:
+
+    for char in palavra_nfd:
+        if unicodedata.category(char) == "Mn" and char in diacriticos:
             soma += 1
-    return soma
+            acento = diacriticos[char]
+            if acento not in acentos_encontrados:
+                acentos_encontrados.append(acento)
+    tipo_final = (", ".join(acentos_encontrados) if acentos_encontrados else None)
+    return tipo_final, soma
 
 # Função para contar o número de SÍLABAS e identificar a classificação das palavras
 def contar_silabas(palavra_loop):
@@ -44,10 +63,23 @@ def calcular_pesos(categoria, qtd_silabas, qtd_acentos):
 # Manipulação dos .csv
 df_resultados = pd.read_csv("palavra.csv", sep=";")
 df_palavras = df_resultados["palavra"]
+
+df_resultados["tipo de acento"] = None
+df_resultados["classificação por número de sílabas"] = None
+
+df_resultados["tipo de acento"] = df_resultados["tipo de acento"].astype(object)
+df_resultados["classificação por número de sílabas"] = df_resultados[
+    "classificação por número de sílabas"
+].astype(object)
+
 for i in range(len(df_palavras)):
     palavra_loop = df_palavras[i]
-    quantidade_acentos = identificar_acentos(palavra_loop)
+
+    tipo_acentos, quantidade_acentos = extrair_tipo_acento(palavra_loop)
+    df_resultados.loc[i, "tipo de acento"] = tipo_acentos
     df_resultados.loc[i, "acento"] = quantidade_acentos
+
+
     quantidade_silabas, tipo_palavra = contar_silabas(palavra_loop)
     df_resultados.loc[i, "número de sílabas"] = quantidade_silabas
     df_resultados.loc[i, "classificação por número de sílabas"] = tipo_palavra
@@ -60,3 +92,5 @@ df_resultados["dificuldade"] = pd.qcut(df_resultados["peso palavra"].rank(method
 df_resultados.to_csv("palavra_completo.csv", mode="w", sep=";", index=False, encoding="utf-8")
 
 print(df_resultados)
+
+print(unicodedata.name("`"))
